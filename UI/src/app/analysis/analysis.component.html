@@ -1,0 +1,122 @@
+<div style="font-size: 10pt">
+  <b style="color: red">Statement: </b>Vidhya is a great platform to learn data science.
+  <ul>
+    <li>Analysis :- (polarity=0.8, subjectivity=0.75)</li>
+    <li>
+      We can see that <b>polarity</b>  is 0.8, which means that the<b>
+        statement is positive</b
+      >
+      and 0.75 <b> subjectivity</b> refers that mostly
+      <b>it is a public opinion </b> and not a factual information, while “subjective” refers to mere feelings or opinions. </li>
+      <li>
+            <b> “objective”</b> refers to facts.
+      </li>
+  
+  </ul>
+</div>
+
+<p-table #dt [columns]="cols" [value]="shadow" [paginator]="true" [rows]="25">
+  <ng-template pTemplate="caption">
+    <div style="text-align: right">
+      <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+      <input
+        type="text"
+        pInputText
+        size="50"
+        placeholder="Global Filter"
+        (input)="dt.filterGlobal($event.target.value, 'contains')"
+        style="width:auto"
+      />
+    </div>
+  </ng-template>
+  <ng-template pTemplate="header" let-columns>
+    <tr>
+      <th *ngFor="let col of columns">
+        {{ col.header }}
+      </th>
+    </tr>
+    <tr>
+      <th *ngFor="let col of columns" [ngSwitch]="col.field">
+        <input
+          *ngSwitchCase="'SNo'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'Question'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'comments'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'Ratings'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'Dimension'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'Polarity'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'PolarityConfidence'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'Subjectivity'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+        <input
+          *ngSwitchCase="'SubjectivityConfidence'"
+          pInputText
+          type="text"
+          (input)="
+            dt.filter($event.target.value, col.field, col.filterMatchMode)
+          "
+        />
+      </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData let-columns="columns">
+    <tr [pSelectableRow]="rowData">
+      <td *ngFor="let col of columns">
+        {{ rowData[col.field] }}
+      </td>
+    </tr>
+  </ng-template>
+</p-table>

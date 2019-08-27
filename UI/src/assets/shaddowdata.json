@@ -1,0 +1,46 @@
+[
+    {
+      "SNo": 1,
+      "Question": "There is a difference in job description that was shared with me during my interview and my current profile",
+      "comments": "I never found any difference with my job role infarct i am eager to take such responsibilities which relates to my profile.",
+      "Ratings": null,
+      "Dimension": "Credibility",
+      "Polarity": "positive",
+      "PolarityConfidence": 0.3950982093811035,
+      "Subjectivity": "subjective",
+      "SubjectivityConfidence": 1
+    },
+    {
+      "SNo": 2,
+      "Question": "The benefits offered by  are competitive",
+      "comments": "Talking about other benefits they are  really good and beneficial  . for me there should be difference for every user who is working for night shift. There is difference in 12:30 and 2:30 shift but same is not applicable for 7 AM morning. ",
+      "Ratings": "1",
+      "Dimension": "Fairness",
+      "Polarity": "negative",
+      "PolarityConfidence": 0.5766239166259766,
+      "Subjectivity": "subjective",
+      "SubjectivityConfidence": 1
+    },
+    {
+      "SNo": 3,
+      "Question": "I have observed micromanagement within my team",
+      "comments": "I never observed such.",
+      "Ratings": "1",
+      "Dimension": "Respect",
+      "Polarity": "negative",
+      "PolarityConfidence": 0.6080624461174011,
+      "Subjectivity": "subjective",
+      "SubjectivityConfidence": 1
+    },
+    {
+      "SNo": 4,
+      "Question": "I am happy about my decision to join ",
+      "comments": "Now I realized that it was a big mistake, selected for a technical architect, work was assigned as a developer and management was expecting to play a role of project manager.",
+      "Ratings": "1",
+      "Dimension": "Pride",
+      "Polarity": "negative",
+      "PolarityConfidence": 0.6745702028274536,
+      "Subjectivity": "subjective",
+      "SubjectivityConfidence": 1
+    }
+  ]

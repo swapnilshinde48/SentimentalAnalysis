@@ -1,0 +1,13 @@
+D:\POC\AylientPOC\AylientPOC\bin\Debug\AylientPOC.exe.config
+D:\POC\AylientPOC\AylientPOC\bin\Debug\AylientPOC.exe
+D:\POC\AylientPOC\AylientPOC\bin\Debug\AylientPOC.pdb
+D:\POC\AylientPOC\AylientPOC\bin\Debug\Aylien.TextApi.dll
+D:\POC\AylientPOC\AylientPOC\bin\Debug\Newtonsoft.Json.dll
+D:\POC\AylientPOC\AylientPOC\bin\Debug\Newtonsoft.Json.xml
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.csprojAssemblyReference.cache
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.csproj.CoreCompileInputs.cache
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.csproj.CopyComplete
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.exe
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.pdb
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.csproj.GenerateResource.cache
+D:\POC\AylientPOC\AylientPOC\obj\Debug\AylientPOC.Item.resources
